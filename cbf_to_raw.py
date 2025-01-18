@@ -5,7 +5,7 @@ import os
 def cbf_to_raw(file_path, output_dir):
     # Obrir el fitxer CBF
     cbf_image = fabio.open(file_path)
-    # Extraure dades de la imatge com un array
+    # Extreure dades
     data = cbf_image.data
 
     # Extraer el nom base del fitxer sense extensió
